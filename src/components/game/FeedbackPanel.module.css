@@ -1,0 +1,71 @@
+.panel {
+  padding: var(--space-md);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  margin-top: var(--space-md);
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  animation: slideIn 0.2s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.correct {
+  border-color: var(--color-pass);
+  background: rgba(0, 200, 83, 0.06);
+}
+
+.incorrect {
+  border-color: var(--color-fail);
+  background: rgba(213, 0, 0, 0.06);
+}
+
+.verdict {
+  font-weight: 700;
+  font-size: 0.9rem;
+  margin-bottom: var(--space-sm);
+}
+
+.verdictCorrect {
+  color: var(--color-pass);
+}
+
+.verdictIncorrect {
+  color: var(--color-fail);
+}
+
+.reference {
+  color: var(--color-dim);
+  font-size: 0.8rem;
+  margin-top: var(--space-xs);
+}
+
+.explanation {
+  color: var(--color-text);
+  margin-top: var(--space-sm);
+  line-height: 1.6;
+  font-family: var(--font-ui);
+}
+
+.nextBtn {
+  margin-top: var(--space-md);
+  padding: var(--space-sm) var(--space-lg);
+  background: var(--color-accent);
+  color: var(--color-bg);
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.nextBtn:hover {
+  opacity: 0.9;
+}

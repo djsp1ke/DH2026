@@ -1,0 +1,163 @@
+.page {
+  flex: 1;
+  max-width: 720px;
+  margin: 0 auto;
+  width: 100%;
+  padding: var(--space-xl) var(--space-md);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: var(--space-xl);
+}
+
+.title {
+  font-family: var(--font-mono);
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.subtitle {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--color-dim);
+  margin-top: var(--space-xs);
+}
+
+.bundleCard {
+  background: var(--color-surface);
+  border: 2px solid var(--color-accent);
+  padding: var(--space-xl);
+  margin-bottom: var(--space-xl);
+  text-align: center;
+}
+
+.bundleTitle {
+  font-family: var(--font-mono);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  margin-bottom: var(--space-sm);
+}
+
+.bundlePrice {
+  font-family: var(--font-mono);
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.bundleOriginal {
+  text-decoration: line-through;
+  color: var(--color-dim);
+  font-size: 1rem;
+  margin-left: var(--space-sm);
+}
+
+.bundleDesc {
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+  color: var(--color-dim);
+  margin-top: var(--space-sm);
+}
+
+.countdown {
+  font-family: var(--font-mono);
+  font-size: 1.1rem;
+  color: var(--color-warn);
+  margin-top: var(--space-md);
+  font-weight: 600;
+}
+
+.buyBtn {
+  margin-top: var(--space-md);
+  padding: var(--space-md) var(--space-2xl);
+  background: var(--color-accent);
+  color: var(--color-bg);
+  border: none;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.buyBtn:hover {
+  opacity: 0.9;
+}
+
+.divider {
+  text-align: center;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--color-dim);
+  margin: var(--space-xl) 0;
+  position: relative;
+}
+
+.divider::before,
+.divider::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 40%;
+  height: 1px;
+  background: var(--color-border);
+}
+
+.divider::before { left: 0; }
+.divider::after { right: 0; }
+
+.caseGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--space-md);
+}
+
+.caseCard {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  padding: var(--space-md);
+}
+
+.caseName {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: var(--space-xs);
+}
+
+.caseReg {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--color-dim);
+  margin-bottom: var(--space-md);
+}
+
+.casePrice {
+  font-family: var(--font-mono);
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: var(--space-sm);
+}
+
+.caseBuyBtn {
+  padding: var(--space-sm) var(--space-lg);
+  background: var(--color-accent);
+  color: var(--color-bg);
+  border: none;
+  font-weight: 600;
+  font-size: 0.8rem;
+  width: 100%;
+}
+
+.caseBuyBtn:hover {
+  opacity: 0.9;
+}
+
+.unlocked {
+  color: var(--color-pass);
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  font-weight: 600;
+}

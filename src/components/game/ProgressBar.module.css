@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  gap: 3px;
+  padding: var(--space-sm) var(--space-md);
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.segment {
+  flex: 1;
+  height: 4px;
+  background: var(--color-border);
+  border-radius: 1px;
+  transition: background-color 0.3s;
+}
+
+.correct {
+  background: var(--color-pass);
+}
+
+.incorrect {
+  background: var(--color-fail);
+}
+
+.current {
+  background: var(--color-accent);
+}
