@@ -1,0 +1,40 @@
+:root {
+  /* Backgrounds */
+  --color-bg: #0a0a0e;
+  --color-surface: #111118;
+  --color-border: #1e1e2e;
+
+  /* Text */
+  --color-text: #c8c8d4;
+  --color-dim: #5a5a6e;
+
+  /* Status */
+  --color-pass: #00c853;
+  --color-fail: #d50000;
+  --color-warn: #ff6d00;
+  --color-accent: #ffd600;
+
+  /* Case colours */
+  --color-fire: #ef4444;
+  --color-water: #3b82f6;
+  --color-asbestos: #f59e0b;
+  --color-electrical: #eab308;
+  --color-gas: #10b981;
+  --color-cooling: #06b6d4;
+
+  /* Typography */
+  --font-mono: 'IBM Plex Mono', 'Courier New', monospace;
+  --font-ui: 'IBM Plex Sans', system-ui, sans-serif;
+
+  /* Spacing */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+
+  /* Borders */
+  --radius-sm: 2px;
+  --radius-md: 4px;
+}
